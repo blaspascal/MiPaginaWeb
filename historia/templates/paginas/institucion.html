@@ -1,0 +1,42 @@
+<!-- adicionar en todas las paginas la base del archivo html -->
+{% extends "base.html" %}
+
+{% block titulo %} Nuestra Institucion {% endblock %}
+
+{% block contenido %} 
+
+<section id="portfolio" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <br>
+          <h2 class="section-heading"><b>NUESTRA INSTITUCION EDUCATIVA</b></h2>
+      </div>
+    </div>
+
+      <div class="row">
+        <br>
+        {% for evento in eventos.eventos %}
+        
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+                <img src="{{ evento.imagen.url }}" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                  <h2>{{ evento.titulo }}</h2>
+                  <p class="">{{ evento.descripcion }}</p>
+            </div>         
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+<!--Iconos-->
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+{% endblock %}

@@ -1,0 +1,336 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 959px;
+}
+
+.u-section-1 .u-list-1 {
+  grid-template-rows: auto auto;
+  width: 1087px;
+  margin: 60px 21px 60px auto;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: calc(45% - 7.5px) calc(20% - 7.5px) calc(20% - 7.5px) calc(20% - 7.5px);
+  min-height: 300px;
+  grid-gap: 5px 5px;
+}
+.u-section-1 .u-repeater-2 {
+  grid-template-columns: calc(19% - 7.5px) calc(19% - 7.5px) calc(19% - 7.5px) calc(19% - 7.5px);
+  min-height: 412px;
+  grid-gap: 10px 10px;
+}
+.u-section-1 .u-container-layout-1 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 143px;
+  height: 143px;
+  background-image: url('../images/formularios/29.jpeg');
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-1 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 143px;
+  height: 143px;
+  background-image: url("../images/formularios/28.png");
+  background-position: 50% 0%;
+  margin: 29px auto 0;
+  
+}
+
+.u-section-1 .u-group-2 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-3 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("../images/formularios/33.jpg");
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-3 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-6 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-7 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-4 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("../images/formularios/32.jpg");
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-4 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-8 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-7 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-8 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-9 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-5 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("../images/formularios/30.jpg");
+  background-position: 50% 9.85%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-5 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-10 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-9 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-10 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-11 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-6 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("../images/formularios/34.jpg");
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-6 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-12 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-11 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-12 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-13 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-7 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("");
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-7 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-14 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-13 {
+  font-weight: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-14 {
+  margin: 21px auto -12px 31px;
+}
+
+.u-section-1 .u-container-layout-15 {
+  padding: 0 5px;
+}
+
+.u-section-1 .u-image-8 {
+  width: 143px;
+  height: 143px;
+  object-position: 50% 0%;
+  background-image: url("");
+  background-position: 50% 50%;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-group-8 {
+  width: 202px;
+  min-height: 113px;
+  margin: 9px auto 0;
+}
+
+.u-section-1 .u-container-layout-16 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-text-15 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 9px;
+}
+
+.u-section-1 .u-text-16 {
+  margin: 21px auto -12px 31px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-list-1 {
+    width: 940px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    min-height: 442px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-11 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-13 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-15 {
+    margin-right: 8px;
+  }
+}
+
+

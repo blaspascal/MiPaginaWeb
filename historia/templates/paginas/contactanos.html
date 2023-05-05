@@ -1,0 +1,45 @@
+<!-- adicionar en todas las paginas la base del archivo html -->
+{% extends "base.html" %}
+
+{% block titulo %} Nosotros {% endblock %}
+
+{% block contenido %} 
+
+<section id="contact">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading"><b>CONTÁCTENOS</b></h2>
+                <h3 class="section-subheading text-muted bottom-margin-sm"></h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <body>
+                <form action="https://formsubmit.co/3ab6ee30a24a9526819579eb9a9a5608" method="POST" class="form-register">
+                  <h4>Formulario Registro</h4>
+                  <input class="controls" type="text" name="nombres" id="nombres y apellido" placeholder="Ingrese su Nombres y Apellido">
+                  <input class="controls" type="text" name="Edad" id="Edad" placeholder="Ingrese su Edad">
+                  <input class="controls" type="text" name="Numero Telefono" id="Numero Telefono" placeholder="Ingrese su Numero Telefono">
+                  <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su Direccion">
+                  <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                  <!-- <input class="controls" type="text" name="observacion" id="observacion" placeholder="Ingrese su observacion"> -->
+                  <textarea class="controls" name="mensaje" rows ="4" cols="80" placeholder="Ingrese su observacion"></textarea>
+                  <table>		
+                    <input class="botons" type="submit" target="_blank" class="btn btn-xl" value="Administrador@colegioblaspascal.com.ec  ">
+                  </div>				
+                  </table>
+
+                  <input type="hidden" name="_next" value="http://localhost:8000/REGISTRO/REGISTRO.html">
+                   <input type="hidden" name="_captcha" value="false">
+                </form>
+              <body>
+        </div>
+    </div>
+</section>
+<!--Iconos-->
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+{% endblock %}

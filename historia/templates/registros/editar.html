@@ -1,0 +1,23 @@
+<!-- adicionar en todas las paginas la base del archivo html -->
+{% extends "base.html" %}
+
+{% block titulo %} Editar Las Fotos {% endblock %}
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        Editar un registros
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del libro</h4>
+        {% include 'registros/form.html' %}
+        
+
+    </div>
+    <div class="card-footer text-muted">
+        Footer
+    </div>
+</div>
+
+{% endblock %}

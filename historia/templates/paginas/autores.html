@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- adicionar en todas las paginas la base del archivo html -->
+{% extends "base.html" %}
+
+{% block titulo %} AUTORES {% endblock %}
+
+{% block contenido %} 
+
+<header>
+  <section id="services">
+      <br>
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading1" id="ini" ><b>"COAUTORES DE LA PAGINA WEB"</b></h2>
+      </div>
+  </section>
+</header>
+
+<section id="services">
+
+<ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-5 gap-y-16 gap-x-5 text-center sm:grid-cols-5 md:grid-cols-5 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-5">
+  {% for participante in participantes %}
+  <div class="col-md-4 col-sm-4 portfolio-item">
+      <li>
+        <h1 id="pp" class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-1200">{{ participante.participa }}</h1>
+        <img class="mx-auto h-64 w-64 rounded-full" src="{{ participante.imagen.url }}" width="150" height="150" alt="">        
+        <h2 id="pp1" class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-1800">{{ participante.nombres }}</h2>
+        <h6 id="pp2" class="text-sm leading-6 text-gray-600" >{{ participante.descripcion }}</h6>
+        <br>
+          
+      </li>
+    </div>
+  {% endfor %}
+</ul>
+</section>
+{% endblock %}

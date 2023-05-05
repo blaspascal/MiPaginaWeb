@@ -1,0 +1,24 @@
+<!-- adicionar en todas las paginas la base del archivo html -->
+{% extends "base.html" %}
+
+{% block titulo %} Agregar nueva Foto {% endblock %}
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        crear nuevo registros
+    </div>
+    <div class="card-body">
+
+        <h4 class="card-title">Datos del libro</h4>
+        
+        {% include 'registros/form.html' %}
+
+    </div>
+    <div class="card-footer text-muted">
+        Pies de pagina
+    </div>
+</div>
+
+{% endblock %}
